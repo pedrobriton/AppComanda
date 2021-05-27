@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Aurelianos Bar</string>
+    <string name="mensagem_inicial">Bem-vindo</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_atualizar">atualizar</string>
+    <string name="action_config">Configuraçōes</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sair">Sair</string>
+    <string name="label1">LABEL 03</string>
+    <string name="label_02">LABEL 02</string>
+    <string name="label_01">LABEL 01</string>
+    <string name="LabelTitulo">Essa será a tela de configurações</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="mensagem_login">Faça seu login</string>
+    <string name="nome_usuario">Digite seu usuário</string>
+    <string name="informe_senha">Digite sua senha</string>
+    <string name="nav">Abrir</string>
+    <string name="nav_close">Fechar</string>
+    <string name="nav_open">Abrir</string>
+
+
+
+</resources>

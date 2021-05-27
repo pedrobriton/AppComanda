@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context="pedro.neto.com.projetocomanda.AbrirComandaActivity"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/tfNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Cliente*" />
+
+    <EditText
+        android:id="@+id/campo_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tfCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPF*" />
+
+    <EditText
+        android:id="@+id/campo_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tfComanda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero da Comanda*"/>
+
+    <EditText
+        android:id="@+id/campo_numero_comanda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tfObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observação(número da mesa)"/>
+
+    <EditText
+        android:id="@+id/campo_observacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/add_comanda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALVAR" />
+
+
+    <Button
+        android:id="@+id/cancelar_comanda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+
+</LinearLayout>
